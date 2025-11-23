@@ -1,0 +1,17 @@
+package model;
+
+import interficies.BubbleTea;
+
+public class TeaBase implements BubbleTea {
+
+
+    @Override
+    public String getDescription() {
+        return "Bubble Tea con base de Té";
+    }
+
+    @Override
+    public double getCost() {
+        return 3;
+    }
+}
